@@ -44,7 +44,7 @@ a {
     font-size: 0.9rem; } }
 
 #fb {display:inline-block;margin-right:10px;} 
-#linkedin {display:inline-block;
+#linkedin {display:inline-block;}
 
 @media screen and (max-width: 42em) {
   .btn {
