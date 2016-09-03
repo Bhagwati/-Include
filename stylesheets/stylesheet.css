@@ -16,7 +16,7 @@ a {
     text-decoration: underline; }
 
 p{
- padding-left : 2cm;  
+ float:left;  
 }
 
 .btn {
