@@ -45,6 +45,10 @@ a {
 
 #fb {display:inline-block;float:left;} 
 
+p, pre,code{
+  float:left;
+}
+
 @media screen and (max-width: 42em) {
   .btn {
     display: block;
