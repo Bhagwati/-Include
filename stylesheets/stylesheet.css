@@ -14,10 +14,7 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-
-p{
-  float:left;
-} 
+    
 p{
   float:inherit;
 }
