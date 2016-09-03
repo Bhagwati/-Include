@@ -14,10 +14,6 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-    
-p{
-  float:inherit;
-}
 
 .btn {
   display: inline-block;
