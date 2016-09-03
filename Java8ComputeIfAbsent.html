@@ -33,10 +33,10 @@ We have a map which contains employee id and contains value which is a list of p
 Before JAVA8  we'd write something like this:
 </p>     
 <pre><code>
- private final Map &lt; String, List &lt;Project &gt;&gt; employeesProjectsDetails = new HashMap<>();
+ private final Map&lt;String, List&lt;Project&gt;&gt; employeesProjectsDetails = new HashMap<>();
 
  private void checkEmployeeProjects(String employeeId){
-    List<Project> employeeProjects = employeeProjectsDetails.get(employeeId);
+    List&lt;Project&gt; employeeProjects = employeeProjectsDetails.get(employeeId);
   
     if(employeeProjects == null)
       {
@@ -49,11 +49,11 @@ Before JAVA8  we'd write something like this:
 </code></pre>
 <p> Now using computeIfAbsent() method: </p>
 <pre><code>
-private final Map<String, List<Project>> employeesProjectsDetails = new HashMap<>();
+private final Map&lt;String, List&lt;Project&gt;&gt; employeesProjectsDetails = new HashMap>();
 
 private void checkEmployeeProjects(String employeeId){
    // using computeIfAbsent to check availability of employee, and lambda to get a lsit of projects for given employee
-    List<Project> employeeProjects = employeeProjectsDetails.computeIfAbsent(employeeId, employeeId -> EmployeesProects.getEmployeeProjects);
+    List&lt;Project&gt; employeeProjects = employeeProjectsDetails.computeIfAbsent(employeeId, employeeId -> EmployeesProects.getEmployeeProjects);
    }
 </pre></code>
 <p> That's how you can use computeIfAbsent in your java code.</p>
