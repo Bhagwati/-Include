@@ -15,10 +15,6 @@ a {
   a:hover {
     text-decoration: underline; }
 
-p{
- float:left;  
-}
-
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -48,7 +44,6 @@ p{
     font-size: 0.9rem; } }
 
 #fb {display:inline-block;float:left;} 
-#linkedin {display:inline-block;float:left;}
 
 @media screen and (max-width: 42em) {
   .btn {
