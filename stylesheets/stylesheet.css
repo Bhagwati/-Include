@@ -44,11 +44,7 @@ a {
     font-size: 0.9rem; } }
 
 #fb {display:inline-block;float:left;} 
-
-p, pre,code, span{
-  float:left;
-}
-
+#linkedin {display:inline-block;float:left;}
 footer.site-footer{
   float:left;
 }
