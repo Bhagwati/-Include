@@ -55,7 +55,7 @@ private final Map<String, List<Project>> employeesProjectsDetails = new HashMap<
 
 private void checkEmployeeProjects(String employeeId){
    // using computeIfAbsent to check availability of employee, and lambda to get a lsit of projects for given employee
-    List<Project> employeeProjects = employeeProjectsDetails.computeIfAbsent(employeeId, employeeId ->                                       EmployeesProects.getEmployeeProjects);
+    List<Project> employeeProjects = employeeProjectsDetails.computeIfAbsent(employeeId, employeeId -> EmployeesProects.getEmployeeProjects);
    }
 </pre></code>
 <p> That's how you can use computeIfAbsent in your java code.</p>
