@@ -45,7 +45,7 @@ a {
 
 #fb {display:inline-block;float:left;} 
 
-p, pre,code, span{
+p, pre,code, span, footer{
   float:left;
 }
 
